@@ -125,30 +125,7 @@ Matched random-vector controls fail to reproduce these gains, suggesting causal 
 
 ---
 
-# Repository Structure
 
-```text
-project/
-│
-├── notebooks/
-│   └── run3.ipynb
-│
-├── data/
-│   ├── clusters.json
-│   ├── phase2_direct.json
-│   ├── phase2_cot.json
-│   └── phase2_solver_augmented.json
-│
-├── tensors/
-│   └── hidden-state activations
-│
-├── paper/
-│   └── manuscript draft
-│
-└── README.md
-```
-
----
 
 # Models
 
@@ -219,7 +196,7 @@ run_steered_test(model, tokenizer, failures, alpha=1.0)
 
 # Important Notes
 
-This repository contains active research code and is still evolving alongside the paper submission.
+This repository contains active research code and is still evolving alongside the paper submission. The included manuscript remains anonymized because it is currently under review.
 
 The experiments here should be interpreted carefully:
 - probing does not imply direct accessibility during generation
